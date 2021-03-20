@@ -119,7 +119,7 @@ resource "aws_instance" "web-1" {
     associate_public_ip_address = true	
     tags = {
         Name = "Server-1"
-        Env = "Dev"
+        Env = "dev"
         Owner = "Sree"
 	CostCenter = "ABCD"
     }
