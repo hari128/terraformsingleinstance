@@ -1,7 +1,7 @@
 #This Terraform Code Deploys Basic VPC Infra.
 provider "aws" {
-    #access_key = "${var.aws_access_key}"
-    #secret_key = "${var.aws_secret_key}"
+    access_key = "${var.aws_access_key}"
+    secret_key = "${var.aws_secret_key}"
     region = "${var.aws_region}"
 }
 
@@ -119,7 +119,7 @@ resource "aws_instance" "web-1" {
     associate_public_ip_address = true	
     tags = {
         Name = "Server-1"
-        Env = "dev"
+        Env = "Dev"
         Owner = "Sree"
 	CostCenter = "ABCD"
     }
