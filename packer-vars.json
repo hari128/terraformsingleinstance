@@ -5,5 +5,6 @@
     "source_ami":"ami-00ddb0e5626798373",
     "instance_type":"t2.micro",
     "vpc_id": "vpc-038e1411bdef5fb94",
-    "subnet_id": "subnet-0e78a74d850864027"
+    "subnet_id": "subnet-08494d2dde743fe1b"
 }
+
